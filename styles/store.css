@@ -1,0 +1,120 @@
+:root {
+    --font-family: "KoHo", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #a3a7fd;
+}
+
+header {
+    margin: 0;
+    padding: 0;
+    width: 1440px;
+    height: 100px;
+    background: #d6d6d6;
+    display: inline-flex;
+}
+
+.logo {
+    margin-left: 100px;
+    margin-top: 21px;
+    width: 327px;
+    height: 58px;
+}
+
+.nav {
+    margin-left: 600px;
+    padding: 0;
+    margin-top: 29px;
+    list-style: none;
+    font-family: "KoHo", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 42px;
+
+    /* line-height: 29px; */
+    line-height: 69%;
+    color: #000;
+
+}
+
+.nav>ul {
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+    list-style: none;
+    margin-left: 40px;
+}
+
+.nav>ul>li {
+    padding: 0;
+    margin: 0;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+
+.nav>a {
+    
+}
+
+.section {
+    display: inline-flex;
+}
+
+.section>ul {
+    display: inline-flex;
+    list-style: none;
+}
+
+.card {
+    border-radius: 20px;
+    width: 440px;
+    height: 544px;
+    background: #d6d6d6;
+}
+
+.card_img {
+    border-radius: 20px;
+    margin-top: 36px;
+    margin-left: 20px;
+}
+
+.card_h2 {
+    font-family: "KoHo", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 42px;
+
+    /* line-height: 36px; */
+    line-height: 86%;
+    color: #000;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.card_p {
+    font-family: "KoHo", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 22px;
+
+    /* line-height: 29px; */
+    line-height: 132%;
+    color: #000;
+
+    margin-top: 12px;margin-left: 40px;
+}
+
+.card_btn {
+    border: none;
+    border-radius: 20px;
+    width: 240px;
+    height: 58px;
+    background: #a3a7fd;
+    margin-top: 28px;
+    margin-left: 100px;
+}
+
+.card_btn-img {}
