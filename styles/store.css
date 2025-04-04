@@ -68,7 +68,6 @@ a {
 
 }
 
-.section {}
 
 .section>ul {
     display: inline-flex;
@@ -126,5 +125,3 @@ a {
     margin-bottom: 20px;
     margin-left: 70px;
 }
-
-.card_btn-img {}
