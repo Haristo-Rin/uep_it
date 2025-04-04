@@ -11,7 +11,7 @@ body {
 header {
     margin: 0;
     padding: 0;
-    width: 1440px;
+    width: 1310px;
     height: 100px;
     background: #d6d6d6;
     display: inline-flex;
@@ -25,7 +25,7 @@ header {
 }
 
 .nav {
-    margin-left: 600px;
+    margin-left: 400px;
     padding: 0;
     margin-top: 29px;
     list-style: none;
@@ -55,30 +55,38 @@ header {
     margin-right: 20px;
 }
 
-.nav>a {
-    
+a {
+    text-decoration: none;
+    font-family: "KoHo", sans-serif;
+    font-style: italic;
+    font-weight: 600;
+    font-size: 42px;
+
+    /* line-height: 29px; */
+    line-height: 69%;
+    color: #000;
+
 }
 
-.section {
-    display: inline-flex;
-}
+.section {}
 
 .section>ul {
     display: inline-flex;
     list-style: none;
+    margin-left: 20px;
 }
 
 .card {
     border-radius: 20px;
-    width: 440px;
+    width: 380px;
     height: 544px;
     background: #d6d6d6;
+    margin-right: 20px;
 }
 
 .card_img {
-    border-radius: 20px;
-    margin-top: 36px;
     margin-left: 20px;
+    margin-top: 30px;
 }
 
 .card_h2 {
@@ -92,6 +100,7 @@ header {
     color: #000;
     margin-top: 20px;
     margin-left: 40px;
+    margin-bottom: 10px;
 }
 
 .card_p {
@@ -104,7 +113,8 @@ header {
     line-height: 132%;
     color: #000;
 
-    margin-top: 12px;margin-left: 40px;
+    margin-top: 2px;
+    margin-left: 40px;
 }
 
 .card_btn {
@@ -113,8 +123,8 @@ header {
     width: 240px;
     height: 58px;
     background: #a3a7fd;
-    margin-top: 28px;
-    margin-left: 100px;
+    margin-bottom: 20px;
+    margin-left: 70px;
 }
 
 .card_btn-img {}
